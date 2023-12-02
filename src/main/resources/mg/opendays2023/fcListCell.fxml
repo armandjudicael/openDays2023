@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXButton fx:id="deleteButton" contentDisplay="GRAPHIC_ONLY" layoutX="543.0" layoutY="10.0" text="delete" textFill="#a62f2f" AnchorPane.bottomAnchor="10.799999999999997" AnchorPane.rightAnchor="14.399999999999977" AnchorPane.topAnchor="10.0">
+         <graphic>
+            <FontAwesomeIconView glyphName="TRASH" selectionFill="#b44545" size="20" wrappingWidth="9.428571701049805" />
+         </graphic></JFXButton>
+      <Label fx:id="label" alignment="CENTER" contentDisplay="RIGHT" layoutX="6.0" layoutY="13.0" text="Label" textAlignment="CENTER" AnchorPane.bottomAnchor="16.8" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="13.0">
+         <font>
+            <Font name="Trebuchet MS" size="15.0" />
+         </font>
+      </Label>
+      <HBox fx:id="starBox" alignment="CENTER" layoutX="200.0" layoutY="5.0" prefHeight="38.0" prefWidth="223.0" />
+   </children>
+</AnchorPane>
