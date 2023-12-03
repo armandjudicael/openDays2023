@@ -1,6 +1,6 @@
-# Project Title
+# Open Days 2023
 
-Project Name (Replace with your project name)
+Open Days 2023
 
 ## Overview
 
